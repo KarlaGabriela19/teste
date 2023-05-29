@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image: url(https://images7.alphacoders.com/526/526775.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url('https://a-static.besthdwallpaper.com/sylvanas-windrunner-fantasy-art-world-of-warcraft-wow-wallpaper-2736x1824-68195_41.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    /**height: 700px;**/
+    text-align: center;
+    color: #fff;
+}
+
+.header-content {
+    padding-top: 100px;
+}
+
+header p {
+    margin-top: 24%;
+}
+
+.navbar {
+    background-color: #9a4adf38;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: fixed;
+}
+
+nav img {
+    width: 150px;
+    height: 30;
+    margin-right: 80%;
+}
+
+
+.navbar-menu {
+    display: flex;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #0000005c;
+    border: none;
+    color: rgb(218, 133, 255);
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1000%;
+}
+
+.button:hover {
+    background-color: #d191ff;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("#");
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf97ff80;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 1000%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #00000082;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .button {
+    background-color: #ddd;
+}
+
+.search-bar {
+    width: 200px;
+    height: 30px;
+    margin-left: -2000px;
+    border: none;
+    background-color: #00000076;
+    border-radius: 8px;
+    margin: fixed;
+
+}
+
+.areas {
+    background-color: #00000038;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.areas__titulo h2 {
+    color: rgb(134, 52, 192);
+    font-family: var();
+    font-size: 70px;
+    font-weight: 400;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.areas__retangulo {
+    width: 5.375rem;
+    height: 0.438rem;
+    background-color: #000000;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.areas__aba {
+    height: 300px;
+    width: 200px;
+    padding: 15px 20px;
+    background: #e9cefe95;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.areas__aba img {
+    text-align: center;
+    margin: 30px 0px;
+    width: 200;
+    height: 150px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: var();
+    font-weight: 600;
+}
+
+.areas__aba__paragrafo {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.1rem;
+    font-family: var();
+    font-weight: 400;
+    line-height: 1.688rem;
+    margin-top: 5px;
+    margin-bottom: 1.563rem;
+}
+
+h3 {
+    margin-top: -30px;
+}
+
+p {
+    margin-top: -10px;
+
+}
+h2{
+    text-align: center;
+    margin-top: 8%;
+    color: #fff;
+}
+.sistemas .container > p{
+    text-align: center;
+}
+.rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.row-card-item{
+    background-color: #e5c2ff99;
+    width: 350px;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 20px;
+}
+.row-card-item img{
+    width: 100%;
+    height: auto;
+    
+}
+ .nome-serviço{
+    margin-top: 10%;
+ }
+ @media (max-width:947px){
+    header{
+        padding-right: 2px;
+        text-align: left;
+    }
+    .areas__titulo h2 {
+        margin-left: -100%;
+        margin-top: 30%;
+    }
+    .button{
+        margin-left: -100%;
+    }
+ }
